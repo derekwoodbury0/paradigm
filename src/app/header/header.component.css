@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+}
+
+nav {
+  background-color: #0c3c60;
+  width: 100vw;
+  height: 64px;
+}
+
+img {
+  width: 250px;
+}
+
+.hamburger-icon {
+  color: white;
+  font-size: 40px;
+  float: right;
+  margin: 10px 25px;
+}
+
+button {
+  background-color: #2a8e00;
+  width: 150px;
+  height: 45px;
+  font-size: 20px;
+  position: absolute;
+  right: 25px;
+  display: none;
+}
+
+@media screen and (min-width: 750px) {
+
+}

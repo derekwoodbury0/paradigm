@@ -1,0 +1,36 @@
+<div class="mobile-menu">
+  <div class="menu">
+    <h1
+      style="float: right;
+        margin: 15px 35px;
+        font-family: montserrat;
+        font-weight: 700;"
+      (click)="toggle()"
+    >X</h1>
+    <img
+      src="../../assets/images/paradigm_icon.png"
+      alt="Paradigm Icon"
+      style="height: 40px; width: 40px; margin: 18px 25px;"
+    />
+    <div style="display: flex; justify-content: center; width: 100%; height: 40%; margin-top: 45px;">
+      <ul class="menu-pages">
+        <li style="border-bottom: 1px solid white;">HOME</li>
+        <li style="border-bottom: 1px solid white;">FINANCING</li>
+        <li style="border-bottom: 1px solid white;">APPLY</li>
+        <li style="border-bottom: 1px solid white;">CONTACT</li>
+        <li style="border-bottom: 1px solid white;">TESTIMONIALS</li>
+        <li style="border-bottom: 1px solid white;">BLOG</li>
+      </ul>
+    </div>
+    <div class="mobile-menu-buttons">
+      <button class="button"
+        [routerLink]="['/apply']"
+        (click)="toggle()"
+      >APPLY</button>
+      <a href="tel:8016828648"
+        class="button"
+        style="text-align: center; padding-top: 5px;"
+      >CALL NOW</a>
+    </div>
+  </div>
+</div>

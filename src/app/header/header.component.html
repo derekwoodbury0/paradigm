@@ -1,0 +1,50 @@
+<nav>
+  <img
+    src="../../assets/images/Full_Logo.png"
+    alt="Paradigm Logo"
+  />
+  <button>Apply Now</button>
+    <i class="fa fa-bars hamburger-icon"
+      (click)="showMobileMenu()"
+    ></i>
+  <div
+    *ngIf="mobileMenu">
+    <app-mobile-menu
+      (hideMobileMenu)="mobileMenuHandler($event)"
+    ></app-mobile-menu>
+  </div>
+</nav>
+
+
+
+<!-- <nav class="navbar navbar-expand-lg navbar-dark header">
+  <a class="navbar-brand" [routerLink]="['home']">
+    <img src="../../assets/images/Full_Logo.png" alt="logo" id="logo-image" style="width: 251px; margin-left: 15px;" />
+  </a>
+  <div class="collapse navbar-collapse" id="navbarNav" style="width: 75%;">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin-left: 50px;">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/home']">HOME</a>
+      </li>
+       <li class="nav-item">
+         <a class="nav-link" [routerLink]="['/financing']">FINANCING</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/apply']">APPLY</a>
+      </li>
+       <li class="nav-item">
+         <a class="nav-link" [routerLink]="['/reviews']">TESTIMONIALS</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/contact']">CONTACT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/blog']">BLOG</a>
+      </li>
+     </ul>
+     <a href="tel:8016828648"class="btn-lg btn btn-primary call-button" >
+       <i class="fa fa-phonek" style="color: white;"></i>
+      Call Now</a>
+      <a class="btn-lg btn btn-primary apply-button">Apply Now</a>
+  </div>
+</nav> -->

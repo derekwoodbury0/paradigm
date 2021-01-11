@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+button, .button {
+  font-family: montserrat;
+  font-weight: 700;
+  color: white;
+  border-radius: 10px;
+}
