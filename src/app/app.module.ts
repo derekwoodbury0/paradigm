@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,8 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
 import { BlogPageComponent } from './blog-page/blog-page.component';
 import { MobileMenuComponent } from './mobile-menu/mobile-menu.component';
 import { ApplyPageComponent } from './apply-page/apply-page.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +27,14 @@ import { ApplyPageComponent } from './apply-page/apply-page.component';
     ContactPageComponent,
     BlogPageComponent,
     MobileMenuComponent,
-    ApplyPageComponent
+    ApplyPageComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

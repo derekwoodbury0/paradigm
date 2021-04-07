@@ -1,0 +1,97 @@
+.financing-banner {
+  width: 100vw;
+  height: 222px;
+}
+
+.financing-section-2 {
+  font-family: montserrat;
+  background-color: #beecb2;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: auto;
+  padding: 40px 10%;
+}
+
+.financing-section-2-title {
+  color: #0c3c60;
+  padding-bottom: 35px;
+}
+
+.financing-section-2-paragraph {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.financing-section-3 {
+  height: 525px;
+  background-color: white;
+  display: flex;
+  width: 100vw;
+  height: auto;
+}
+
+.financing-section-3-list {
+  width: 50vw;
+  /* text-align: center; */
+  padding: 30px 10%;
+  list-style-type: none;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.5;
+}
+li {
+  padding-bottom: 20px;
+}
+
+.financing-section-3-image {
+  width: 50vw;
+  padding: 2.5%;
+}
+
+span {
+  color: green;
+}
+
+.financing-section-4 {
+  font-family: montserrat;
+  background-image: url(../../assets/images/contact_us_banner.jpg);
+  width: 100vw;
+  height: 500px;
+  /* height: auto; */
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.credit-table {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80vw;
+  background: green;
+}
+
+.financing-section-5-lists {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  justify-content: space-between;
+  padding: 0 15%;
+}
+
+.financing-setion-6 {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.financing-section-6-writing {
+  width: 50vw;
+}
+
+.financing-section-6-image {
+  width: 600px;
+  height: 300px;
+}

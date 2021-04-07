@@ -12,4 +12,13 @@ export class ContactPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // people: any =
+  //   {
+  //     name: "Tyler Deters",
+  //     title: "President/CEO",
+  //     email: "tyler@paradigmef.com",
+  //     image: "../../assets/employee_photos/Tyler.jpg"
+  //   }
+
+
 }

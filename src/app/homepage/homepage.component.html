@@ -1,17 +1,15 @@
-<!-- <div>
-
-  <div class="home-banner">
-    <div class="banner-message">
-      <h1 style="width: 50vw; margin: auto; font-size: 60px; font-weight: 700;">
-        Quality In Everything We Do</h1>
-      <h2 style="width: 50vw; margin: auto; font-size: 40px; padding-top: 25px; padding-bottom: 25px;">
-        Contact us today to learn about our financing options</h2>
-      <button class="btn-lrg btn btn-primary"
-        style="background-color: #0c3c60; width: 250px; height: 75px; font-size: 25px; font-weight: 700; margin-bottom: 75px;">Contact us now
-      </button>
+<div class="homepage">
+  <div class="banner-section">
+    <div class="banner-text">
+      <h1 class="banner-title">Quality In Everything We Do</h1>
+      <h2 class="banner-subtitle">Contact us today to learn about our financing options</h2>
+      <button id="banner-button" [routerLink]="['/contact']">Contact Us</button>
     </div>
   </div>
 
+</div>
+
+<div>
   <div class="homepage-section-2" style="width: 100vw; height: auto; background-color: #beecb2;">
     <div class="homepage-section-2-words">
       <h1 style="font-size: 36px; font-weight: 700; padding-bottom: 25px; width: 60%; margin: auto; text-align: center;">Equipment Financing Company In Utah</h1>
@@ -26,14 +24,14 @@
         <p style="font-size: 16px;">For many businesses, heavy equipment is the single most important asset for business success. But to acquire it, you need to work with an equipment financing company that’s not going to smother your balance sheet with unfavorable terms, hidden fees and bureaucratic red tape. It’s why more companies in Utah and across the country are turning to Paradigm Equipment Finance for private lending for construction equipment.<br><br>
         As direct funding source, we specialize in equipment-based leasing to businesses who struggle with traditional financing. Our borrowers are generally viewed as subprime credits by traditional lending institutions, despite their ability to demonstrate consistent cash flow, a reliable balance sheet and a strong borrowing history. We provide these borrowers the access to capital they need, so they don’t have to worry about construction equipment financing that might cripple their business through a traditional lender. Our upfront guidelines and terms, along with our established presence in the industry, allows us to lend confidently to borrowers who may fall outside conventional lending parameters.</p>
       </div>
-      <img src="../../assets/images/Tractor.png" alt="truck"
+      <img src="../../assets/images/homepage-section2-1.png" alt="truck"
         style="width: 40%; height: auto; margin-top: 35px; margin-bottom: 15px;"/>
     </div>
   </div>
 
   <div class="homepage-section-3">
     <div style="display: flex; width: 100%; justify-content: space-around;">
-      <img src="../../assets/images/Trucker.png" alt="truck"
+      <img src="../../assets/images/homepage-section2-2.png" alt="truck"
         style="width: 50%; height: auto; margin-top: 15px; margin-bottom: 15px;"/>
       <div style="width: 45%; margin-top: 45px; padding-bottom: 45px; padding-left: 15px;">
         <h1 style="font-size: 25px; font-weight: 700; color: #0c3c60; padding-bottom: 25px;">Utah's Preferred Equipment Financing Company</h1>
@@ -61,6 +59,7 @@
         </div>
       </div>
   </div>
+  <app-contact></app-contact>
 
 </div>
- -->
+

@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: montserrat;
+  color: white;
+  background-color: #0c3c60;
+}
+
+.footer-page {
+  padding-top: 70px;
+}
+
+hr {
+  width: 80%;
+  color: red;
+}
+
+.footer-banner {
+  font-size: 31px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer-columns {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-around;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 6%;
+  padding-right: 9%;
+}
+
+.footer-location-column {
+  width: 322px;
+  height: 245px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-size: 16px;
+  text-align: center;
+  line-height: 150%;
+}
+
+.button-column {
+  display: flex;
+  flex-direction: column;
+  height: 245px;
+  width: 231px;
+  justify-content: space-between;
+}
+
+button {
+  width: 100%;
+  height: 46px;
+  background:#28AE00;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 550;
+}
+
+.social-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.hours-column {
+  height: 245px;
+}
+
+.day-hours-container {
+  text-align: center;
+  display: flex;
+  width: 245px;
+  letter-spacing: 1px;
+  justify-content: space-between;
+  margin-top: 20px;
+}

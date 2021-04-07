@@ -14,12 +14,30 @@
     />
     <div style="display: flex; justify-content: center; width: 100%; height: 40%; margin-top: 45px;">
       <ul class="menu-pages">
-        <li style="border-bottom: 1px solid white;">HOME</li>
-        <li style="border-bottom: 1px solid white;">FINANCING</li>
-        <li style="border-bottom: 1px solid white;">APPLY</li>
-        <li style="border-bottom: 1px solid white;">CONTACT</li>
-        <li style="border-bottom: 1px solid white;">TESTIMONIALS</li>
-        <li style="border-bottom: 1px solid white;">BLOG</li>
+        <li
+          [routerLink]="['/home']"
+          (click)="toggle()"
+          style="border-bottom: 1px solid white;">HOME</li>
+        <li
+          [routerLink]="['/financing']"
+          (click)="toggle()"
+          style="border-bottom: 1px solid white;">FINANCING</li>
+        <li
+          [routerLink]="['/apply']"
+          (click)="toggle()"
+          style="border-bottom: 1px solid white;">APPLY</li>
+        <li
+          [routerLink]="['/contact']"
+          (click)="toggle()"
+          style="border-bottom: 1px solid white;">CONTACT</li>
+        <li
+          [routerLink]="['/reviews']"
+          (click)="toggle()"
+          style="border-bottom: 1px solid white;">TESTIMONIALS</li>
+        <li
+          [routerLink]="['/blog']"
+          (click)="toggle()"
+          style="border-bottom: 1px solid white;">BLOG</li>
       </ul>
     </div>
     <div class="mobile-menu-buttons">

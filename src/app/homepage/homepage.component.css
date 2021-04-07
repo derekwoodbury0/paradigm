@@ -1,24 +1,67 @@
-
-/* * {
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   font-family: montserrat;
-
 }
 
-.home-banner {
+/* Homepage Banner 1 */
+
+.banner-section {
   width: 100vw;
   height: auto;
+  color: white;
   background-image: url(../../assets/images/Backhoe.jpg);
-  background-size: 100vw 100%;
+  background-size: auto 100%;
+  background-position-x: center;
 }
 
-.banner-message {
-  font-family: montserrat;
-  color: white;
-  text-align: center;
-  backdrop-filter: brightness(50%);
+.banner-text {
+  background-color: rgba(0, 0, 0, 0.678);
   height: 100%;
-  padding-top: 75px;
+  width: 100%;
+  padding: 40px 15%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.banner-title {
+  font-weight: 700;
+  margin-bottom: 25px;
+  font-size: 45px;
+  line-height: 1.5
+}
+
+.banner-subtitle {
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+#banner-button {
+  background-color: #0c3c60;
+  width: 190px;
+  height: 53px;
+  margin-top: 40px;
+  font-size: 26px;
+  border: none;
+}
+
+@media screen and (min-width:700px) {
+  .banner-section {
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 425px;
+  }
+
+  .banner-text {
+    padding: 40px 20%;
+  }
+}
+
+ /* Homepage Section 2 */
 
 .homepage-section-2 {
   width: 100vw;
@@ -33,14 +76,18 @@
   padding-bottom: 40px;
 }
 
+ /* Homepage Section 3 */
+
 .homepage-section-3 {
   width: 95vw;
   margin: auto;
 }
+
+/* Homepage Section 4 */
 
 .homepage-section-4 {
   width: 100vw;
   background-image: url(../../assets/images/construction_worker.png);
   color: white;
   font-size: 16px;
-} */
+}
